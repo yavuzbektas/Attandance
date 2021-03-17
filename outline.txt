@@ -1,0 +1,22 @@
+#pyside2-uic mainwindow.ui -o mainwindow.py
+#pyside2-uic video.ui -o video.py
+#pyside2-uic icons.qrc -o icons_rc.py
+
+#kütüphanler :
+# dlip kütüphanesi face-recognation kütğphanesini yüklserken hata veriyordu bu sekilde  çözdüm
+# conda install -c conda-forge dlib
+
+#Creating a Standalone Executable
+#If you want to create a standalone executable that can run without the need to install python or
+#face_recognition, you can use PyInstaller.
+#However, it requires some custom configuration to work with this library. See this issue for how to do it.
+
+#pyinstaller.exe --onefile C:\Users\YBEKTAS\Desktop\Python\Projeler\Attendance\main.py
+
+linguist
+# bulundugun klasör önemli
+# lupdate login.ui -ts C:\Users\YBEKTAS\Desktop\Python\Projeler\Attendance\staticfiles\languages\login_tr.ts
+# lupdate C:\Users\YBEKTAS\Desktop\Python\Projeler\Attendance\mainwindow.ui -ts main_tr.ts
+# sonra
+# lrelease C:\Users\YBEKTAS\Desktop\Python\Projeler\Attendance\staticfiles\languages\login_tr.ts
+VEYA linguis programı da release yapıyor

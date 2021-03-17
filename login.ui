@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Dialog</class>
+    <widget class="QDialog" name="Dialog">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>543</width>
+                <height>467</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Dialog</string>
+        </property>
+        <widget class="QTabWidget" name="tabWidget">
+            <property name="geometry">
+                <rect>
+                    <x>30</x>
+                    <y>110</y>
+                    <width>491</width>
+                    <height>321</height>
+                </rect>
+            </property>
+            <property name="autoFillBackground">
+                <bool>true</bool>
+            </property>
+            <property name="currentIndex">
+                <number>0</number>
+            </property>
+            <widget class="QWidget" name="tab">
+                <attribute name="title">
+                    <string>Log In</string>
+                </attribute>
+                <widget class="QPushButton" name="pushButton_3">
+                    <property name="enabled">
+                        <bool>false</bool>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>10</x>
+                            <y>20</y>
+                            <width>121</width>
+                            <height>111</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string/>
+                    </property>
+                    <property name="icon">
+                        <iconset resource="icons.qrc">
+                            <normaloff>:/staticfiles/icons/managment3.png</normaloff>
+                            <disabledoff>:/staticfiles/icons/managment3.png</disabledoff>
+                            :/staticfiles/icons/managment3.png
+                        </iconset>
+                    </property>
+                    <property name="iconSize">
+                        <size>
+                            <width>100</width>
+                            <height>100</height>
+                        </size>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                    <property name="flat">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QFrame" name="frame_2">
+                    <property name="geometry">
+                        <rect>
+                            <x>48</x>
+                            <y>150</y>
+                            <width>331</width>
+                            <height>99</height>
+                        </rect>
+                    </property>
+                    <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                    </property>
+                    <widget class="QPushButton" name="pushButton_2">
+                        <property name="geometry">
+                            <rect>
+                                <x>220</x>
+                                <y>20</y>
+                                <width>101</width>
+                                <height>60</height>
+                            </rect>
+                        </property>
+                        <property name="font">
+                            <font>
+                                <pointsize>10</pointsize>
+                                <weight>75</weight>
+                                <bold>true</bold>
+                            </font>
+                        </property>
+                        <property name="text">
+                            <string>Cancel</string>
+                        </property>
+                    </widget>
+                    <widget class="QPushButton" name="pushButton">
+                        <property name="geometry">
+                            <rect>
+                                <x>50</x>
+                                <y>20</y>
+                                <width>101</width>
+                                <height>60</height>
+                            </rect>
+                        </property>
+                        <property name="font">
+                            <font>
+                                <pointsize>10</pointsize>
+                                <weight>75</weight>
+                                <bold>true</bold>
+                            </font>
+                        </property>
+                        <property name="text">
+                            <string>Log In</string>
+                        </property>
+                    </widget>
+                </widget>
+                <widget class="QLabel" name="label_4">
+                    <property name="enabled">
+                        <bool>true</bool>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>9</x>
+                            <y>260</y>
+                            <width>471</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <family>Segoe UI</family>
+                            <pointsize>8</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                        </font>
+                    </property>
+                    <property name="text">
+                        <string/>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                    </property>
+                </widget>
+                <widget class="QFrame" name="frame">
+                    <property name="geometry">
+                        <rect>
+                            <x>89</x>
+                            <y>20</y>
+                            <width>331</width>
+                            <height>111</height>
+                        </rect>
+                    </property>
+                    <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                    </property>
+                    <widget class="QLabel" name="label">
+                        <property name="geometry">
+                            <rect>
+                                <x>40</x>
+                                <y>20</y>
+                                <width>130</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="font">
+                            <font>
+                                <family>Segoe UI</family>
+                                <pointsize>10</pointsize>
+                                <weight>75</weight>
+                                <bold>true</bold>
+                            </font>
+                        </property>
+                        <property name="text">
+                            <string>Username</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                        </property>
+                    </widget>
+                    <widget class="QLineEdit" name="lineEdit_2">
+                        <property name="geometry">
+                            <rect>
+                                <x>180</x>
+                                <y>60</y>
+                                <width>140</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="echoMode">
+                            <enum>QLineEdit::Password</enum>
+                        </property>
+                    </widget>
+                    <widget class="QLineEdit" name="lineEdit">
+                        <property name="geometry">
+                            <rect>
+                                <x>180</x>
+                                <y>20</y>
+                                <width>140</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" name="label_2">
+                        <property name="geometry">
+                            <rect>
+                                <x>60</x>
+                                <y>60</y>
+                                <width>110</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="font">
+                            <font>
+                                <family>Segoe UI</family>
+                                <pointsize>10</pointsize>
+                                <weight>75</weight>
+                                <bold>true</bold>
+                            </font>
+                        </property>
+                        <property name="text">
+                            <string>Password</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                        </property>
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="QWidget" name="tab_2">
+                <attribute name="title">
+                    <string>Sign Up</string>
+                </attribute>
+                <widget class="QLabel" name="label_5">
+                    <property name="geometry">
+                        <rect>
+                            <x>60</x>
+                            <y>30</y>
+                            <width>130</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <family>Segoe UI</family>
+                            <pointsize>10</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                        </font>
+                    </property>
+                    <property name="text">
+                        <string>Username</string>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_6">
+                    <property name="geometry">
+                        <rect>
+                            <x>80</x>
+                            <y>70</y>
+                            <width>110</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <family>Segoe UI</family>
+                            <pointsize>10</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                        </font>
+                    </property>
+                    <property name="text">
+                        <string>Password</string>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" name="lineEdit_3">
+                    <property name="geometry">
+                        <rect>
+                            <x>200</x>
+                            <y>30</y>
+                            <width>140</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" name="lineEdit_4">
+                    <property name="geometry">
+                        <rect>
+                            <x>200</x>
+                            <y>70</y>
+                            <width>140</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="echoMode">
+                        <enum>QLineEdit::Password</enum>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" name="lineEdit_5">
+                    <property name="geometry">
+                        <rect>
+                            <x>200</x>
+                            <y>110</y>
+                            <width>140</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string/>
+                    </property>
+                    <property name="echoMode">
+                        <enum>QLineEdit::Password</enum>
+                    </property>
+                    <property name="cursorPosition">
+                        <number>0</number>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_7">
+                    <property name="geometry">
+                        <rect>
+                            <x>80</x>
+                            <y>110</y>
+                            <width>110</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <family>Segoe UI</family>
+                            <pointsize>10</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                        </font>
+                    </property>
+                    <property name="text">
+                        <string>Re-Password</string>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                </widget>
+                <widget class="QPushButton" name="pushButton_4">
+                    <property name="geometry">
+                        <rect>
+                            <x>250</x>
+                            <y>160</y>
+                            <width>93</width>
+                            <height>31</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>Sign Up</string>
+                    </property>
+                </widget>
+            </widget>
+        </widget>
+        <widget class="QLabel" name="label_3">
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>10</y>
+                    <width>501</width>
+                    <height>91</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Segoe UI</family>
+                    <pointsize>16</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="frameShape">
+                <enum>QFrame::WinPanel</enum>
+            </property>
+            <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;SCHOOL ATTENDANCE
+                    MANAGMENT&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;SYSTEM by Face Recognition&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                </string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+        </widget>
+    </widget>
+    <resources>
+        <include location="icons.qrc"/>
+    </resources>
+    <connections/>
+</ui>
