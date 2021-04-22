@@ -1,0 +1,2 @@
+https://laptrinhx.com/opencv-rpi-gpio-and-gpio-zero-on-the-raspberry-pi-1966100059/
+https://www.pyimagesearch.com/2016/01/04/unifying-picamera-and-cv2-videocapture-into-a-single-class-with-opencv/
